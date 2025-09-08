@@ -1,12 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Your Name</title>
-  </head>
-  <body>
-   
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css" /> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <title>Allen Chiu</title>
+<body>
+    <nav>
+        <p>Allen Chiu</p>
+        <a href="contact.html">Contact Allen Chiu</a>
+    </nav>    
+    <header>
+    <h1>Allen Chiu</h1>
+    <img width="343" height="227" alt="headshot" src="images/headshot.jpg" />
+    </header>
+    <p class="address">Athens, GA 30601<i class="fa-solid fa-square"></i>+1(678)-862-6972<i class="fa-solid fa-square"></i>asc73208@uga.edu</p>
+    <p class="tagline">Hi! I am Allen Chiu, a junior at the University of Georgia, pursuing a degree in Computer Science. I have a passion for technology and innovation, and is always looking for new ways to apply my skills and knowledge to real-world problems. I am always eager to learn new technologies and frameworks.</p>
+    <hr>
+    <section><h2>Education</h2>    
+    <dl>
+        <dt>University of Georgia</dt>
+        <dd>GPA: 3.84</dd>
+        <dt>Bachelor of Science in Computer Science</dt>
+        <dd>Expected Graduation Date: May 2027</dd>
+    </dl>
+    </section>
+    <section><h2>Honors and Awards</h2> 
+    <dl>
+        <dt>Dean's List</dt>
+        <dd>Fall 2023 - Spring 2025</dd>
+        <dt>Presidential Scholar</dt>
+        <dd>Summer 2025</dd>
+    </dl>
+    </section>   
+    <section><h2>Skills</h2>    
+    <ul>
+        <li>Java</li>
+        <li>Python</li>
+        <li>TypeScript/JavaScript</li>
+        <li>HTML/CSS</li>
+        <li>C/C++/Cuda</li>
+        <li>Geometric code (G-code) for CNC machines</li>
+    </ul>
+    </section>
+    <section><h2>Experience and Leadership</h2>
+    <dl>
+        <dt><a href="https://www.thaicc.cc/com/santai/">CNC Machinist Intern</a></dt>
+        <dd>May 2023 - August 2023</dd>
+        <dt><a href="https://www.thaicc.cc/com/santai/">CNC Programming and Engineering Intern</a></dt>
+        <dd>May 2023 - August 2023</dd>
+    </dl>
+    </section>
+    <section><h2>Projects</h2>
+    <div class="three-col">  
+    <div class="card"> 
+        <h3>Multi-threaded Diagonal Sums Using CPU and GPU</h3>
+        <img width="343" height="227" alt="project1" src="images/proj1img.jpg" />
+        <ul>    
+            <li>Using C to implement a CPU program that finds all of the diagonal sums equal to an input s, an unsigned long value, in an input text file consisting of a 2D grid of
+                n-by-n digits (1 through 9), where n ≥ 1, using t threads, where 1 ≤ t ≤ 3. Your program should write the output of all of
+                the diagonal sums equal to s to an output file. 
+            </li>
+            <li>
+                Utilizing the pthread library to create and manage multiple threads for parallel processing on a UNIX system and Windows Thread API for Windows systems.
+            </li>
+            <li>
+                Using Cuda to implement a GPU program that finds all of the diagonal sums equal to an input s, an unsigned long value, in an input text file consisting of a 2D grid of
+                n-by-n digits (1 through 9), where n ≥ 1, using t threads, where 1 ≤ t ≤ 3. Your program should write the output of all of the diagonal sums equal to s to an output file.
+            </li>
+            <li>
+                Utilizing GPU kernels to parallelize the computation of diagonal sums on the GPU, optimizing memory access patterns and thread synchronization for efficient execution.
+            </li>
+        </ul>
+    </div>
+        <div class="card">
+        <h3>Food Insecurity Machine Learning Research</h3>
+        <img width="343" height="227" alt="project2" src="images/proj2img.jpg" />
+        <ul>    
+            <li>
+                Hypothesised, researched, and investigated food insecurity in the US based on a pertinent set of factors and
+                attributes (Household size and income, COVID-19 pandemic, Economic downturn and upturn, etc.)
+            </li>
+            <li>
+                Drew data-driven conclusions on factors that had the most detrimental impact on food insecurity in the US from
+                2010-2020, which was the COVID-19 pandemic, metropolitan regions of the southern US, and economic instability.
+            </li>
+            <li>
+                Utilized Python, Pandas, NumPy, and Matplotlib to clean, analyze, visualize, and model the data.
+            </li>
+            <li>
+                Created a machine learning model that predicted food insecurity in the US using a Random Forest Classifier.
+            </li>
+            <li>
+                Concluded research and analysis with analysis-driven next steps and improvements to lessen food insecurity.
+            </li>
+        </ul>
+    </div>
+        <div class="card">
+        <h3>iTunes Gallery using iTunes API</h3>
+        <img width="343" height="227" alt="project4" src="images/screenshot.png"/>
+        <ul>    
+            <li>
+                This project implements a GUI application in Java using JavaFX 17 that displays a gallery of images based on the results of search query to the iTunes Search API. 
+            </li>
+            <li>
+                It queries the iTunes Search API. The query will return 200 URIs of images from the API query, as specified by the user's search. The 200 URIs will be added into a hashset to get rid of any duplicate links that the query may have returned. 
+            </li>    
+            <li>
+                The gallery will rotate through images from the API query much like an actual gallery through the use of looping through the hashset of links. 
+            </li>    
+        </ul>
+    </div>
+    </div>
+    </section>    
+    <footer>
+        <p> &copy; <a href="contact.html">Allen Chiu</a></p>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/allen-chiu-415223287/"><i class="fa-brands fa-square-linkedin"></i></a>
+    </footer>    
+</body>
 </html>
