@@ -94,19 +94,19 @@ section a:hover {
 }
 
 .card img {
-  display: block;          /* removes inline gap */
-  margin: 0 auto 1rem;     /* centers image + adds spacing below */
-  width: 60%;              /* shrink image to 60% of card width */
+  display: block;          
+  margin: 0 auto 1rem;     
+  width: 60%;              
   height: auto;  
 }
 
 .card {
-  background-color: #ffffff;               /* white background */
-  border: 1px solid #e0e0e0;               /* light outline */
-  border-radius: 10px;                     /* rounded corners */
-  padding: 1.5rem;                         /* inner spacing */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);   /* subtle shadow */
-  transition: transform 0.2s, box-shadow 0.2s; /* smooth hover effect */
+  background-color: #ffffff;               
+  border: 1px solid #e0e0e0;               
+  border-radius: 10px;                     
+  padding: 1.5rem;                         
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);   
+  transition: transform 0.2s, box-shadow 0.2s; 
 }
 
 /**************   Responsiveness   *****************/
@@ -117,45 +117,45 @@ section a:hover {
     }
 
     .three-col {
-    grid-template-columns: 1fr;     /* single column */
-    justify-items: center;          /* center the cards */
+    grid-template-columns: 1fr;     
+    justify-items: center;          
     }
 }
 
 /**************   Contact Page   *****************/
 .one-col {
   display: flex;
-  flex-direction: column;   /* stack children vertically */
-  gap: 12px;                /* spacing between fields */
-  max-width: 400px;         /* keep form compact */
-  margin: 0 auto;           /* center on page */
+  flex-direction: column;   
+  gap: 12px;                
+  max-width: 400px;       
+  margin: 0 auto;           
   padding: 20px;
-  background: #fff;         /* card-style background */
+  background: #fff;         
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 input {
-  width: 100%;                 /* take full container width */
-  padding: 10px 12px;           /* inner spacing */
-  border: 1px solid #ccc;       /* subtle border */
-  border-radius: 6px;           /* rounded corners */
-  font-size: 1rem;              /* readable size */
-  font-family: inherit;         /* match your site font */
-  box-sizing: border-box;       /* include padding in width */
+  width: 100%;                 
+  padding: 10px 12px;           
+  border: 1px solid #ccc;       
+  border-radius: 6px;           
+  font-size: 1rem;              
+  font-family: inherit;         
+  box-sizing: border-box;      
   transition: border 0.2s, box-shadow 0.2s;
 }
 
 textarea {
   width: 100%;
-  min-height: 120px;            /* good starting height */
+  min-height: 120px;            
   padding: 10px 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 1rem;
   font-family: inherit;
   box-sizing: border-box;
-  resize: vertical;             /* allow user to resize vertically */
+  resize: vertical;             
   transition: border 0.2s, box-shadow 0.2s;
 }
